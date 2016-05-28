@@ -1,0 +1,143 @@
+/*Page Setup*/
+
+body {
+  background-color: #F0512C;
+}
+
+h1 {
+  font-family: 'Lato','Helvetica Neue', 'Arial';
+  font-size: 32px;
+  font-weight: 100;
+  color: #fff;
+  line-height: 1.2em;
+  margin-bottom: 1.4em;
+}
+
+p {
+  font-family: 'Lato','Helvetica Neue', 'Arial';
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 8em auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*Image*/
+
+.img {
+  flex-basis: 30%;
+  margin-right: 4em;
+}
+
+#phone img {
+  width: 80%;
+}
+
+/*Call to Action*/
+
+.call-to-action {
+  flex-basis: 44%;
+}
+
+
+/*Call to Action --- Benefits*/
+
+.benefits {
+  margin-bottom: 2.6em;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6em;
+}
+
+.benefit p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #993300;
+}
+
+.benefit img {
+  width: 9px;
+  padding: 10px 9px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #FF6541;
+  display: inline-block;
+  margin-right: 1.4em;
+}
+
+/*Call to Action --- Sign Up*/
+
+.sign-up {
+  margin-top: 20px;
+  display: flex;
+}
+
+.sign-up input {
+  flex-basis: 62%;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 2px;
+  border: 1px solid #f5f6fa;
+  overflow: hidden;
+  text-overflow: inherit;
+  white-space: nowrap;
+  padding: 18px 12px;
+  margin-right: 1.4em;
+}
+
+.sign-up .button {
+  flex-basis: 28%;
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid rgba(153, 51, 0, 0.4);
+  background-color: #FF6541;
+  padding: 18px 12px;
+}
+
+/*Call to Action --- App Stores*/
+
+#divider {
+  height: 1px;
+  background-color: rgba(153, 51, 0, 0.4);
+  margin-top: 2.4em;
+}
+
+.app-stores {
+  display: flex;
+  margin-top: 1.4em;
+}
+
+#apple {
+  flex-basis: 40%;
+}
+
+#apple img {
+  padding: 0.9em 0;
+  width: 100%;
+}
+
+#google {
+  flex-basis: 46%;
+}
+
+#google img {
+  width: 100%;
+}
