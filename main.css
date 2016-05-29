@@ -35,12 +35,18 @@ ul {
 /*Image*/
 
 .img {
-  flex-basis: 30%;
-  margin-right: 4em;
+  display: flex;
+  flex-basis: 100%;
+  /*margin-right: 4em;*/
+}
+
+#phone {
+  display: flex;
+  justify-content: center;
 }
 
 #phone img {
-  width: 80%;
+  width: 54%;
 }
 
 /*Call to Action*/
@@ -140,4 +146,10 @@ ul {
 
 #google img {
   width: 100%;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 635px) {
+
 }
