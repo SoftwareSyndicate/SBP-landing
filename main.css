@@ -30,9 +30,11 @@ ul {
     margin-top: 15%;
     max-width: 1140px;
     margin: auto;
+    margin-left: 4%;
+    margin-right: 4%;
     margin-top: 15%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 /*Image*/
@@ -43,14 +45,15 @@ ul {
 }
 
 #phoneImg {
-    height: 80%;
+    height: 70%;
 }
 
 
 /*Call to Action*/
 
 .call-to-action {
-    flex-basis: 100%;
+    flex-basis: 90%;
+    margin: auto;
 }
 
 
@@ -88,7 +91,7 @@ ul {
 
 .sign-up {
   margin-top: 20px;
-  display: flex;
+  display: none;
 }
 
 .sign-up input {
@@ -126,24 +129,40 @@ ul {
 
 .app-stores {
   display: flex;
-  margin-top: 1.4em;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  margin-top: 14%;
+  margin-bottom: 6%;
 }
 
 #apple {
-  flex-basis: 40%;
-}
-
-#apple img {
-  padding: 0.9em 0;
-  width: 100%;
+  flex-basis: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-bottom: 4%;
 }
 
 #google {
-  flex-basis: 46%;
+  flex-basis: 100%;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-bottom: 4%;
 }
 
 #google img {
   width: 100%;
 }
 
+#apple img {
+  width: 100%;
+}
+
 /*MEDIA QUERIES*/
+
+@media (min-width: 481px) {
+
+  .sign-up {
+    display: flex;
+  }
+
+}
