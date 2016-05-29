@@ -26,33 +26,33 @@ ul {
 }
 
 .container {
-  max-width: 1140px;
-  margin: 8em auto;
-  display: flex;
-  justify-content: center;
+    margin-top: 15%;
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Image*/
 
-.img {
-  display: flex;
-  flex-basis: 100%;
-  /*margin-right: 4em;*/
+.phone-img-container {
+    display: flex;
+    margin: auto;
+    /* width: 80%; */
 }
 
-#phone {
-  display: flex;
-  justify-content: center;
+#phone-img {
+    /* display: block; */
+    /* width: 80%; */
+    /* height: 80%; */
 }
 
-#phone img {
-  width: 54%;
-}
 
 /*Call to Action*/
 
 .call-to-action {
-  flex-basis: 44%;
+    flex-basis: 100%;
 }
 
 
