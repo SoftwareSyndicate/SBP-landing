@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Lato','Helvetica Neue', 'Arial';
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 300;
   color: #fff;
   line-height: 1.2em;
   margin-top: 0;
@@ -28,9 +28,8 @@ ul {
 }
 
 .container {
-    margin-top: 15%;
     max-width: 1140px;
-    margin: 15% 4% 20% 4%;
+    margin: 15% 4% 15% 4%;
     display: flex;
     flex-wrap: wrap-reverse;
 }
@@ -158,10 +157,83 @@ ul {
 
 /*MEDIA QUERIES*/
 
+/*add media query between 765 and 482px*/
+
+@media (max-width: 1028px) and (min-width: 482px) {
+
+  /*Image*/
+
+  #phoneImg {
+    height: 60%;
+  }
+
+  /*Call to action - App stores*/
+
+  #apple {
+    flex-basis: 50%;
+  }
+
+  #google {
+    flex-basis: 50%;
+  }
+
+}
+
 @media (min-width: 481px) {
+
+  /*Page Setup*/
+
+  h1 {
+    font-weight: 100;
+  }
+
+  .container {
+  }
 
   .sign-up {
     display: flex;
+  }
+
+  /*Image*/
+
+  .phone-img-container {
+    flex-basis: 40%;
+    margin-top: 0;
+  }
+
+  #phoneImg {
+    margin: auto;
+  }
+
+
+  /*Call to Action*/
+
+  .call-to-action {
+      flex-basis: 50%;
+  }
+
+  /*Call to Action --- App Stores*/
+
+  .app-stores {
+    flex-wrap: nowrap;;
+    margin-top: 8%;
+  }
+
+  #apple {
+    flex-basis: 36%;
+    padding-left: 0;
+    padding-right: 3%;
+  }
+
+  #google {
+    flex-basis: 36%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-bottom: 4%;
+  }
+
+  .divider-bottom {
+    display: none;
   }
 
 }
